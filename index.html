@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet data-dc-atomics>
+<meta charset="UTF-8">
+<title>Skin Glow · Centro de belleza en Santa Cruz de Tenerife</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Cormorant+Garamond:ital,wght@0,500;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#151110;font-family:Inter,system-ui,sans-serif}
+a{text-decoration:none;color:inherit}
+html,body{overflow-x:hidden}
+.sg-navcheck{display:none}
+.sg-burger{display:none;flex-direction:column;gap:5px;cursor:pointer;width:26px;padding:6px}
+.sg-burger span{display:block;width:100%;height:2px;background:#fff}
+.sg-social a{transition:opacity .15s}
+.sg-social a:hover{opacity:.7}
+@media (max-width:900px){
+.sg-burger{display:flex}
+.sg-navlinks{display:none!important;position:absolute;top:100%;left:0;right:0;flex-direction:column!important;align-items:flex-start!important;background:#151110;padding:20px 24px;gap:16px!important;border-bottom:1px solid rgba(255,255,255,.1)}
+.sg-navcheck:checked ~ .sg-navlinks{display:flex!important}
+}
+</style>
+</helmet>
+
+<div style="background:#151110;color:#fff;min-height:100vh">
+
+<header style="border-bottom:1px solid rgba(255,255,255,.1);position:sticky;top:0;background:rgba(21,17,16,.92);backdrop-filter:blur(14px);z-index:50">
+<div style="max-width:1160px;margin:0 auto;padding:18px 24px;display:flex;align-items:center;justify-content:space-between;gap:16px;position:relative">
+<a href="index.html"><img src="assets/logo.png" alt="Skin Glow" style="height:46px;width:auto;display:block"></a>
+<input type="checkbox" id="navcheck" class="sg-navcheck">
+<label for="navcheck" class="sg-burger" aria-label="Abrir menú"><span></span><span></span><span></span></label>
+<nav class="sg-navlinks" style="display:flex;align-items:center;gap:28px;flex-wrap:wrap;font:600 13px Inter,sans-serif">
+<a href="index.html" style="color:#fff">Inicio</a>
+<a href="nosotros.html" style="color:#b8a795">Nosotros</a>
+<a href="servicios.html" style="color:#b8a795">Servicios</a>
+<a href="PorQuenosotros.html" style="color:#b8a795">Por qué elegirnos</a>
+<a href="resultados.html" style="color:#b8a795">Resultados</a>
+<a href="contacto.html" style="padding:11px 22px;background:#c39a5b;color:#151110;border-radius:2px;font-weight:700">Reservar cita</a>
+</nav>
+</div>
+</header>
+
+<section style="position:relative;overflow:hidden;padding:110px 24px 90px">
+<img src="assets/hero.jpg" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.26">
+<div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(21,17,16,.35),#151110 94%)"></div>
+<div style="position:relative;max-width:1160px;margin:0 auto">
+<div style="max-width:660px">
+<p style="font:700 12px Inter;text-transform:uppercase;letter-spacing:4px;color:#c39a5b;margin:0 0 22px">Peluquería · Uñas · Estética facial y corporal</p>
+<h1 style="font:700 clamp(42px,8vw,76px)/1.02 'Playfair Display',serif;color:#fff;margin:0 0 28px;letter-spacing:-2px">BRILLA<br>DESDE TU<br><span style="color:#c39a5b">ESENCIA</span></h1>
+<p style="font:17px/1.75 Inter;color:#b8a795;max-width:480px;margin:0 0 34px">Tratamientos profesionales para rostro, cuerpo, cabello y manicura en un espacio pensado para que te sientas cómoda desde el primer minuto, en el corazón de Santa Cruz de Tenerife.</p>
+<div style="display:flex;gap:16px;flex-wrap:wrap;margin-bottom:30px">
+<a href="contacto.html" style="padding:16px 30px;background:#c39a5b;color:#151110;font:700 13px Inter">Reservar valoración</a>
+<a href="servicios.html" style="padding:16px 30px;border:1px solid rgba(255,255,255,.25);color:#fff;font:700 13px Inter">Ver servicios y precios</a>
+</div>
+<div style="display:flex;gap:10px;flex-wrap:wrap">
+<span style="border:1px solid rgba(255,255,255,.15);padding:8px 16px;color:#e8d3a1;font:700 11px Inter;text-transform:uppercase;letter-spacing:1px">Diagnóstico personalizado</span>
+<span style="border:1px solid rgba(255,255,255,.15);padding:8px 16px;color:#e8d3a1;font:700 11px Inter;text-transform:uppercase;letter-spacing:1px">Higiene profesional</span>
+<span style="border:1px solid rgba(255,255,255,.15);padding:8px 16px;color:#e8d3a1;font:700 11px Inter;text-transform:uppercase;letter-spacing:1px">Acabados naturales</span>
+</div>
+</div>
+</div>
+</section>
+
+<section style="padding:90px 24px;background:#1c1714">
+<div style="max-width:1160px;margin:0 auto">
+<div style="text-align:center;max-width:680px;margin:0 auto 56px">
+<p style="font:italic 600 13px 'Cormorant Garamond',serif;text-transform:uppercase;letter-spacing:4px;color:#c39a5b;margin:0 0 14px">Servicios destacados</p>
+<h2 style="font:600 clamp(30px,3.5vw,44px)/1.1 'Playfair Display',serif;color:#fff;margin:0 0 16px">Todo lo que necesita un centro de belleza moderno</h2>
+<p style="font:16px/1.7 Inter;color:#9a8b7a;margin:0">Cuatro áreas de trabajo pensadas para resolver lo que necesitas hoy y cuidar tu imagen a largo plazo.</p>
+</div>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:32px 40px">
+<div style="padding:18px 0 0;border-top:2px solid #c39a5b"><span style="font:700 34px 'Playfair Display',serif;color:#c39a5b">01</span><p style="font:700 11px Inter;letter-spacing:1.5px;color:#e8d3a1;margin:16px 0 6px">CABELLO</p><h3 style="font:600 19px 'Playfair Display',serif;color:#fff;margin:0 0 10px">Peluquería y color</h3><p style="font:14px/1.6 Inter;color:#9a8b7a;margin:0">Corte, brushing, hidratación, mechas, matiz y asesoría de imagen.</p></div>
+<div style="padding:18px 0 0;border-top:2px solid #c39a5b"><span style="font:700 34px 'Playfair Display',serif;color:#c39a5b">02</span><p style="font:700 11px Inter;letter-spacing:1.5px;color:#e8d3a1;margin:16px 0 6px">MANOS Y PIES</p><h3 style="font:600 19px 'Playfair Display',serif;color:#fff;margin:0 0 10px">Uñas profesionales</h3><p style="font:14px/1.6 Inter;color:#9a8b7a;margin:0">Manicura, pedicura, semipermanente, refuerzo y nail art.</p></div>
+<div style="padding:18px 0 0;border-top:2px solid #c39a5b"><span style="font:700 34px 'Playfair Display',serif;color:#c39a5b">03</span><p style="font:700 11px Inter;letter-spacing:1.5px;color:#e8d3a1;margin:16px 0 6px">ROSTRO</p><h3 style="font:600 19px 'Playfair Display',serif;color:#fff;margin:0 0 10px">Estética facial</h3><p style="font:14px/1.6 Inter;color:#9a8b7a;margin:0">Limpieza profunda, peeling, radiofrecuencia y rituales glow.</p></div>
+<div style="padding:18px 0 0;border-top:2px solid #c39a5b"><span style="font:700 34px 'Playfair Display',serif;color:#c39a5b">04</span><p style="font:700 11px Inter;letter-spacing:1.5px;color:#e8d3a1;margin:16px 0 6px">MIRADA</p><h3 style="font:600 19px 'Playfair Display',serif;color:#fff;margin:0 0 10px">Depilación y cejas</h3><p style="font:14px/1.6 Inter;color:#9a8b7a;margin:0">Diseño de cejas, laminado, tinte y depilación con acabado natural.</p></div>
+</div>
+</div>
+</section>
+
+<section style="padding:100px 24px;background:#151110">
+<div style="max-width:1160px;margin:0 auto;display:flex;flex-wrap:wrap;gap:56px;align-items:center">
+<div style="flex:1 1 380px;border-radius:6px;overflow:hidden"><img src="assets/panel.jpg" alt="Línea de productos Skin Glow" style="width:100%;height:100%;object-fit:cover;display:block"></div>
+<div style="flex:1 1 380px">
+<p style="font:italic 600 13px 'Cormorant Garamond',serif;text-transform:uppercase;letter-spacing:4px;color:#c39a5b;margin:0 0 16px">Cuidado que se nota</p>
+<h2 style="font:600 40px/1.1 'Playfair Display',serif;color:#fff;margin:0 0 20px">Brilla desde tu esencia</h2>
+<p style="font:16px/1.75 Inter;color:#9a8b7a;margin:0 0 24px">Trabajamos con fórmulas e ingredientes seleccionados para realzar tu belleza natural: cada tratamiento se piensa a partir de un diagnóstico real, no de una plantilla.</p>
+<ul style="list-style:none;padding:0;margin:0 0 28px;display:flex;flex-direction:column;gap:14px">
+<li style="font:15px/1.6 Inter;color:#cbb9a4"><span style="color:#c39a5b;font-weight:700;margin-right:10px">✦</span>Ambiente cuidado y tranquilo, pensado para desconectar durante tu cita.</li>
+<li style="font:15px/1.6 Inter;color:#cbb9a4"><span style="color:#c39a5b;font-weight:700;margin-right:10px">✦</span>Cada visita empieza resolviendo tus dudas antes de recomendar nada.</li>
+<li style="font:15px/1.6 Inter;color:#cbb9a4"><span style="color:#c39a5b;font-weight:700;margin-right:10px">✦</span>Reserva directa por WhatsApp, sin esperas ni llamadas complicadas.</li>
+</ul>
+<a href="PorQuenosotros.html" style="display:inline-block;padding:15px 28px;background:linear-gradient(135deg,#e8d3a1,#9c7638);color:#1a1512;font:700 13px Inter">Por qué elegirnos</a>
+</div>
+</div>
+</section>
+
+<section style="padding:90px 24px;background:#1c1714">
+<div style="max-width:760px;margin:0 auto;text-align:center">
+<p style="font:italic 500 30px/1.4 'Playfair Display',serif;color:#f3e9d6;margin:0">"Queremos que cada clienta salga sintiéndose cuidada, escuchada y segura con su <span style="color:#c39a5b;font-style:normal">Glow</span>."</p>
+</div>
+</section>
+
+<footer style="background:#151110;border-top:1px solid rgba(255,255,255,.08);padding:64px 24px 24px">
+<div style="max-width:1160px;margin:0 auto;display:flex;flex-wrap:wrap;gap:40px">
+<div style="flex:2 1 280px">
+<img src="assets/logo.png" alt="Skin Glow" style="height:50px;width:auto;margin-bottom:16px">
+<p style="font:14px/1.7 Inter;color:#9a8b7a;margin:0 0 16px;max-width:340px">Centro de belleza, estética, peluquería y uñas en Santa Cruz de Tenerife. Cuidamos tu imagen con asesoramiento honesto, protocolos higiénicos y resultados naturales.</p>
+<div style="display:flex;gap:12px">
+<a href="https://instagram.com/skinglow.tf" aria-label="Instagram" style="width:38px;height:38px;border-radius:50%;border:1px solid rgba(255,255,255,.15);display:flex;align-items:center;justify-content:center;color:#e8d3a1"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 2.2c3.2 0 3.6 0 4.9.07 1.2.06 2 .25 2.5.42a5 5 0 0 1 1.8 1.17 5 5 0 0 1 1.17 1.8c.17.5.36 1.3.42 2.5.06 1.3.07 1.7.07 4.9s0 3.6-.07 4.9c-.06 1.2-.25 2-.42 2.5a5 5 0 0 1-1.17 1.8 5 5 0 0 1-1.8 1.17c-.5.17-1.3.36-2.5.42-1.3.06-1.7.07-4.9.07s-3.6 0-4.9-.07c-1.2-.06-2-.25-2.5-.42a5 5 0 0 1-1.8-1.17 5 5 0 0 1-1.17-1.8c-.17-.5-.36-1.3-.42-2.5C2.2 15.6 2.2 15.2 2.2 12s0-3.6.07-4.9c.06-1.2.25-2 .42-2.5a5 5 0 0 1 1.17-1.8A5 5 0 0 1 5.66 2.7c.5-.17 1.3-.36 2.5-.42C9.4 2.2 9.8 2.2 12 2.2zm0 1.8c-3.14 0-3.51 0-4.75.07-1.02.05-1.57.22-1.94.36a3.2 3.2 0 0 0-1.16.75c-.35.35-.57.7-.75 1.16-.14.37-.31.92-.36 1.94C3 9.5 3 9.86 3 13s0 3.51.07 4.75c.05 1.02.22 1.57.36 1.94.18.46.4.81.75 1.16.35.35.7.57 1.16.75.37.14.92.31 1.94.36 1.24.06 1.6.07 4.75.07s3.51 0 4.75-.07c1.02-.05 1.57-.22 1.94-.36a3.2 3.2 0 0 0 1.16-.75c.35-.35.57-.7.75-1.16.14-.37.31-.92.36-1.94.06-1.24.07-1.6.07-4.75s0-3.51-.07-4.75c-.05-1.02-.22-1.57-.36-1.94a3.2 3.2 0 0 0-.75-1.16 3.2 3.2 0 0 0-1.16-.75c-.37-.14-.92-.31-1.94-.36C15.51 4 15.14 4 12 4z"/><path d="M12 7.5a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9zm0 7.4a2.9 2.9 0 1 1 0-5.8 2.9 2.9 0 0 1 0 5.8zM17.9 6.1a1.05 1.05 0 1 1-2.1 0 1.05 1.05 0 0 1 2.1 0z"/></svg></a>
+<a href="https://facebook.com/skinglow.tf" aria-label="Facebook" style="width:38px;height:38px;border-radius:50%;border:1px solid rgba(255,255,255,.15);display:flex;align-items:center;justify-content:center;color:#e8d3a1"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M13.5 21v-7.7h2.6l.4-3h-3v-1.9c0-.87.24-1.46 1.5-1.46h1.6V4.3c-.28-.04-1.24-.12-2.36-.12-2.34 0-3.94 1.43-3.94 4.04v2.08H7.7v3h2.6V21h3.2z"/></svg></a>
+<a href="https://tiktok.com/@skinglow.tf" aria-label="TikTok" style="width:38px;height:38px;border-radius:50%;border:1px solid rgba(255,255,255,.15);display:flex;align-items:center;justify-content:center;color:#e8d3a1"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M16.6 5.82c-.9-.98-1.4-2.24-1.4-3.57h-3.03v13.4c0 1.53-1.24 2.77-2.77 2.77a2.77 2.77 0 0 1-2.77-2.77 2.77 2.77 0 0 1 2.77-2.77c.28 0 .55.04.8.12V9.7a5.8 5.8 0 0 0-.8-.06A5.8 5.8 0 0 0 3.6 15.45a5.8 5.8 0 0 0 5.8 5.8 5.8 5.8 0 0 0 5.8-5.8V9.3a7.6 7.6 0 0 0 4.4 1.4V7.66a4.55 4.55 0 0 1-2.99-1.85z"/></svg></a>
+</div>
+</div>
+<div style="flex:1 1 160px">
+<h4 style="font:700 13px Inter;letter-spacing:1px;text-transform:uppercase;color:#fff;margin:0 0 14px">Servicios</h4>
+<div style="display:flex;flex-direction:column;gap:10px">
+<a href="servicios.html#peluqueria" style="font:14px Inter;color:#9a8b7a">Peluquería</a>
+<a href="servicios.html#unas" style="font:14px Inter;color:#9a8b7a">Uñas</a>
+<a href="servicios.html#facial" style="font:14px Inter;color:#9a8b7a">Faciales</a>
+<a href="servicios.html#corporal" style="font:14px Inter;color:#9a8b7a">Corporales</a>
+</div>
+</div>
+<div style="flex:1 1 220px">
+<h4 style="font:700 13px Inter;letter-spacing:1px;text-transform:uppercase;color:#fff;margin:0 0 14px">Contacto</h4>
+<p style="font:14px/1.7 Inter;color:#9a8b7a;margin:0 0 10px">Av. La Salle, 7<br>38005 Santa Cruz de Tenerife</p>
+<p style="font:14px/1.7 Inter;color:#9a8b7a;margin:0 0 10px">Lunes a sábado · 9:00–21:00</p>
+<p style="font:14px/1.7 Inter;color:#9a8b7a;margin:0">+34 628 016 415<br>skinglowcenter@protonmail.com</p>
+<div class="sg-social" style="display:flex;gap:14px;margin-top:18px">
+<a href="https://instagram.com/skinglowcenter" target="_blank" rel="noopener" aria-label="Instagram" style="width:38px;height:38px;border:1px solid rgba(255,255,255,.15);border-radius:50%;display:flex;align-items:center;justify-content:center;color:#e8d3a1"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"></rect><circle cx="12" cy="12" r="4.2"></circle><circle cx="17.3" cy="6.7" r="1.1" fill="currentColor" stroke="none"></circle></svg></a>
+<a href="https://facebook.com/skinglowcenter" target="_blank" rel="noopener" aria-label="Facebook" style="width:38px;height:38px;border:1px solid rgba(255,255,255,.15);border-radius:50%;display:flex;align-items:center;justify-content:center;color:#e8d3a1"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-8.2h2.75l.41-3.2h-3.16V7.4c0-.93.26-1.56 1.6-1.56h1.7V2.98C15.94 2.9 14.99 2.8 13.9 2.8c-2.4 0-4.05 1.46-4.05 4.15v2.65H7.1v3.2h2.75V21h3.65z"></path></svg></a>
+<a href="https://tiktok.com/@skinglowcenter" target="_blank" rel="noopener" aria-label="TikTok" style="width:38px;height:38px;border:1px solid rgba(255,255,255,.15);border-radius:50%;display:flex;align-items:center;justify-content:center;color:#e8d3a1"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M16.6 2h-3.2v13.6a3 3 0 1 1-2.13-2.87V9.4a6.2 6.2 0 1 0 5.33 6.14V8.53a7.9 7.9 0 0 0 4.6 1.47V6.8a4.7 4.7 0 0 1-4.6-4.6z"></path></svg></a>
+</div>
+</div>
+</div>
+<div style="max-width:1160px;margin:40px auto 0;padding-top:22px;border-top:1px solid rgba(255,255,255,.08);text-align:center;font:13px Inter;color:#6b5f52">© 2026 Skin Glow. Todos los derechos reservados.</div>
+</footer>
+
+<a href="https://wa.me/34628016415" style="position:fixed;right:22px;bottom:22px;z-index:60;background:#25D366;color:#fff;padding:14px 20px;border-radius:999px;font:900 14px Inter;box-shadow:0 12px 30px rgba(0,0,0,.35)">WhatsApp</a>
+
+</div>
+
+</x-dc>
+</body>
+</html>
